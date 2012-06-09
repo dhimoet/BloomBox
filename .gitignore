@@ -1,8 +1,8 @@
 blog
+public/*
 */config/development
 */logs/log-*.php
 */logs/!index.html
 */cache/*
 */cache/!index.html
 *.DS_Store
-public/*
