@@ -8,14 +8,14 @@
   <meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
   
 <?if(isset($page_css)) foreach($page_css as $item) {?>
-  <link rel="stylesheet" type="text/css" href="/static/css/<?=$item;?>.css" />
+  <link rel="stylesheet" type="text/css" href="/public/css/<?=$item;?>.css" />
 <?}?>
 
 <?if(isset($page_js)) foreach($page_js as $item) {?>
-  <script type="text/javascript" src="/static/js/<?=$item;?>.js"></script>
+  <script type="text/javascript" src="/public/js/<?=$item;?>.js"></script>
 <?}?>
 
-  <title>BloomBoxPhoto | <?=isset($page_title)?$page_title:'';?></title>
+  <title>BloomBoxPhoto <?=isset($page_title)?'| '.$page_title:'';?></title>
   
 </head>
 <body>
