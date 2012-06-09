@@ -1,5 +1,4 @@
 blog
-public/*
 */config/development
 */logs/log-*.php
 */logs/!index.html
