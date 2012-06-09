@@ -50,7 +50,7 @@ $active_record = TRUE;
 
 $db['default']['hostname'] = 'localhost';
 $db['default']['username'] = 'bloomboxphoto';
-$db['default']['password'] = 'BloomBox123';
+$db['default']['password'] = 'QazWsxEdc123';
 $db['default']['database'] = 'bloomboxphoto';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
