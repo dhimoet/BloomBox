@@ -34,6 +34,7 @@ body {
     position: fixed;
     bottom: 10%;
     left: 20px;
+    z-index: -1;
     width: 800px;
     opacity: 0.4;
 }
@@ -42,6 +43,7 @@ body {
     position: fixed;
     top: 10%;
     right: -15%;
+    z-index: -1;
     width: 1000px;
     opacity: 0.1;
 }
