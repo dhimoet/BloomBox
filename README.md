@@ -1,4 +1,4 @@
-BloomBox
+BloomBox Photography
 ========
 
-BloomBox Photo
+Please do not modify this site directly from the server!

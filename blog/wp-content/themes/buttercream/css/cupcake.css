@@ -1,0 +1,78 @@
+/**
+ * @package Buttercream
+ */
+
+body {
+	background-color: #fbf8e1;
+}
+#main,
+#masthead hgroup {
+	border-left-color: #f4eed0;
+	border-right-color: #f4eed0;
+}
+a:link,
+a:visited,
+a:hover,
+a:active {
+	color: #ef7273;
+}
+.entry-title,
+.entry-title a {
+	color: #82573f;
+}
+a.post-edit-link,
+a.comment-edit-link,
+.post-date a,
+.post-date a:visited {
+	color: #fff;
+}
+blockquote {
+	border-left: 4px solid #ef7273;
+}
+th {
+	background-color: #7dc9be;
+}
+.post-date {
+	background-image:url(../img/postdate-cupcake.png);
+}
+a.post-edit-link,
+a.comment-edit-link,
+.post-comments a,
+.post-comments a:visited,
+.post-comments span,
+#searchform #searchsubmit{
+	background-color: #7dc9be;
+}
+.site-title,
+.site-title a,
+h1, h2, h3, h4, h5, h6 {
+	color: #ef3d46;
+}
+.site-description {
+	color: #82573f;
+}
+.page-links span.active-link,
+.page-links a span.active-link:hover {
+	background-color: #7cc8bd;
+}
+.page-links a span.active-link {
+	background-color: #93d4ce;
+}
+#header-image {
+	background-image:url(../img/cupcake.png);
+}
+.cat-links {
+	background-image:url(../img/folder-cupcake.png);
+}
+.tag-links {
+	background-image:url(../img/tag-cupcake.png);
+}
+.bluebar {
+	background-image:url(../img/bar-cupcake.png);
+}
+#header-imagesm {
+	background-image:url(../img/cupcake-sm.png);
+}
+#header-image {
+	background-image:url(../img/cupcake.png);
+}

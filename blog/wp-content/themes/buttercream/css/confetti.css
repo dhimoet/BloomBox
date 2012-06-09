@@ -1,0 +1,51 @@
+/**
+ * @package Buttercream
+ */
+
+body {
+	background-color: #f2f1d7;
+}
+a:link,
+a:visited,
+a:hover,
+a:active {
+	color: #ef7273;
+}
+.entry-title,
+.entry-title a {
+	color: #82573f;
+}
+a.post-edit-link,
+a.comment-edit-link,
+.post-date a,
+.post-date a:visited {
+	color: #fff;
+}
+th {
+	background-color: #7dc9be;
+}
+.post-date {
+	background-image:url(../img/postdate.png);
+}
+a.post-edit-link,
+a.comment-edit-link,
+.post-comments a,
+.post-comments a:visited,
+.post-comments span,
+#searchform #searchsubmit{
+	background-color: #7dc9be;
+}
+.site-title,
+h1, h2, h3, h4, h5, h6 {
+	color: #ef3d46;
+}
+.site-description {
+	color: #82573f;
+}
+.page-links span.active-link,
+.page-links a span.active-link:hover {
+	background-color: #7cc8bd;
+}
+.page-links a span.active-link {
+	background-color: #93d4ce;
+}
