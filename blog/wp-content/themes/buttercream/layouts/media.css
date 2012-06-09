@@ -89,12 +89,12 @@
 
 @media only screen and (min-width: 850px) and (max-width: 1024px) {
 	#masthead hgroup {
-		width: 900px;
+		width: 600px;
 	}
 	.main-navigation,
 	#main,
 	#content {
-		width: 900px;
+		width: 600px;
 	}
 	.navbar {
 		border-top: 2px solid #422619;
@@ -148,7 +148,7 @@
 		max-width: 560px;
 	}
 	.sidebars {
-		width: 900px;
+		width: 600px;
 		margin-top: 30px;
 	}
 	.widget-area {
@@ -177,14 +177,14 @@
 
 @media only screen and (min-width: 608px) and (max-width: 850px) {
 	#masthead hgroup {
-		width: 900px;
+		width: 600px;
 		margin-top: 0px;
 		padding-top: 20px;
 	}
 	.main-navigation,
 	#main,
 	#content {
-		width: 900px;
+		width: 600px;
 	}
 	.navbar {
 		border-top: 2px solid #422619;
@@ -239,7 +239,7 @@
 		max-width: 560px;
 	}
 	.sidebars {
-		width: 900px;
+		width: 600px;
 		margin-top: 30px;
 	}
 	.widget-area {
