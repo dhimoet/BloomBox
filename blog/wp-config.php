@@ -19,10 +19,10 @@
 define('DB_NAME', 'bloomboxphoto');
 
 /** MySQL database username */
-define('DB_USER', 'bloomboxphoto');
+define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'QazWsxEdc123');
+define('DB_PASSWORD', 'password');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');
