@@ -36,6 +36,7 @@
         
         .background_1 {
             position: fixed;
+            z-index: -1;
             bottom: 10%;
             left: 20px;
             width: 800px;
@@ -44,6 +45,7 @@
         
         .background_2 {
             position: fixed;
+            z-index: -1;
             top: 10%;
             right: -15%;
             width: 1000px;
