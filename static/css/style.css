@@ -1,13 +1,23 @@
 body {
-	background-color: #494949;
+	background-color: #5a5a5a;
 	margin: 0px;
 	padding: 0px;
 }
 
 #real_body {
-	background: url('/public/img/site/header.png') no-repeat;
+	background-color: #4a4a4a;
 	width: 1024px;
-	min-height: 200px;
+	min-height: 600px;
 	height: 100%;
 	margin: 0px auto;
+	padding: 0px;
+}
+
+#header {
+	background: url('/public/img/site/header.png') no-repeat;
+	min-height: 140px;
+}
+
+#header_logo {
+	padding: 40px 50px;
 }
