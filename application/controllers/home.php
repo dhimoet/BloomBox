@@ -14,16 +14,8 @@ class Home extends CI_Controller {
 		}
 		
 		/*** contruct html page ***/
-		$title = ucwords(str_replace('_', ' ',$this->router->fetch_method()));
-		$this->head['doctype'] = doctype('html4-trans');
+		$title = ucwords(str_replace('_', ' ',$this->router->fetch_class()));
 		$this->head['title'] = "BloomBoxPhoto | " . $title;
-		$this->head['css'] = array(
-			"/static/css/style.css",
-		);
-		$this->head['js'] = array(
-			"/static/js/jquery-1.7.2.min.js",
-			"/static/js/script.js"
-		);
 	}
 	
 	public function index() {
