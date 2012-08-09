@@ -1,9 +1,12 @@
 */config/config.php
+*/config/constants.php
 */config/database.php
 */config/development
+*/sql/*
 */logs/log-*.php
 */logs/!index.html
 */cache/*
 */cache/!index.html
 *.DS_Store
 blog/wp-admin/*
+.project
