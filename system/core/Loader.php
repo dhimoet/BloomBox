@@ -830,9 +830,7 @@ class CI_Loader {
 		}
 		else
 		{
-		    $this->page_view = $_ci_path;
-		    include("application/views/base.php"); // This is a hack to allow a base view to load the desired view
-			//include($_ci_path); // include() vs include_once() allows for multiple views with the same name
+		    include($_ci_path); // include() vs include_once() allows for multiple views with the same name
 		}
 
 		log_message('debug', 'File loaded: '.$_ci_path);
