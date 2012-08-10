@@ -1,4 +1,10 @@
 $(document).ready(function() {
+	/*** expand page height to the size of window ***/
+	$('#real_body').height($(window).height());
+	
+	/*** make sure the active menu loads on page load ***/
+	$('.active_menu').fadeIn().css('top', $('.active').offset().top);
+	
 	/*** search bar placeholder handler ***/
 	var default_value = $('input.search_box').val();
 	$('input.search_box').focus(function() {
@@ -13,9 +19,6 @@ $(document).ready(function() {
 			}
 		});
 	});
-	
-	/*** make sure the active menu loads on page load ***/
-	$('.active_menu').fadeIn().css('top', $('.active').offset().top);
 	
 	/*** side navigation handler ***/
 	$('.nav_menu a').click(function() {
