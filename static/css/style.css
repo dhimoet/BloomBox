@@ -4,7 +4,12 @@ body {
 	padding: 0px;
 }
 
+a {
+	text-decoration: none;
+}
+
 #real_body {
+	position: relative;
 	background-color: #4a4a4a;
 	width: 1024px;
 	min-height: 600px;
@@ -49,18 +54,18 @@ body {
 }
 
 .side_nav {
-	margin: 60px;
+	margin: 72px 60px;
 }
 
-.side_nav .active {
+.side_nav .active a {
 	color: #ffffff;
 	position: relative;
-	z-index: 2;
+	z-index: 102;
 }
 
 .side_nav .active_menu {
 	position: absolute;
-	z-index: 1;
+	z-index: 101;
 	display: none;
 }
 
@@ -72,8 +77,12 @@ body {
 	height: 36px;
 	text-align: center;
 	padding: 8px 0px;
-	margin: 64px 0px;
-	cursor: pointer;
+	margin: 42px 0px;
+}
+
+.nav_menu a {
+	font-family: Verdana;
+	color: #00b8e8;
 }
 
 .nav_menu .first_word {
@@ -87,4 +96,17 @@ body {
 .social_logos img {
 	margin: 22px 19px 55px 0px;
 	cursor: pointer;
+}
+
+#content {
+	position: absolute;
+	top: 180px;
+	right: 0px;
+	z-index: 1;
+}
+
+#content .layer_2 {
+	position: absolute;
+	top: 0px;
+	padding: 20px;
 }

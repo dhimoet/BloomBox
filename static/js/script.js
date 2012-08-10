@@ -14,10 +14,13 @@ $(document).ready(function() {
 		});
 	});
 	
+	/*** make sure the active menu loads on page load ***/
+	$('.active_menu').fadeIn().css('top', $('.active').offset().top);
+	
 	/*** side navigation handler ***/
-	$('.nav_menu').click(function() {
+	$('.nav_menu a').click(function() {
 		$('.nav_menu').removeClass('active');
-		$('.active_menu').show().css('top', $(this).offset().top);
-		$(this).addClass('active');
+		$('.active_menu').show().css('top', $(this).parent().offset().top);
+		$(this).parent().addClass('active');
 	});
 });
