@@ -18,8 +18,38 @@ a {
 	padding: 0px;
 }
 
+#real_body1 {
+	position: relative;
+	background-color: #4a4a4a;
+	width: 100%;
+	min-height: 600px;
+	height: 100%;
+	margin: 0px auto;
+	padding: 0px;
+}
+
+#real_body2 {
+	position: relative;
+	background-color: #ababab;
+	width: 100%;
+	min-height: 600px;
+	height: 100%;
+	margin: 0px auto;
+	padding: 0px;
+}
+
 #header {
 	background: url('/public/img/site/header.png') no-repeat;
+	min-height: 140px;
+}
+
+#header1 {
+	background: url('/public/img/site/HeaderCurveLine.jpg') repeat-x left bottom #ffffff;
+	min-height: 140px;
+}
+
+#header2 {
+	background: url('/public/img/site/HeaderCurveLineV2.png') repeat-x left bottom #ffffff;
 	min-height: 140px;
 }
 

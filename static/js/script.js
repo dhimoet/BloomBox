@@ -1,6 +1,6 @@
 $(document).ready(function() {
 	/*** expand page height to the size of window ***/
-	$('#real_body').height($(window).height());
+	$('#real_body').height($(document).height());
 	
 	/*** make sure the active menu loads on page load ***/
 	$('.active_menu').fadeIn().css('top', $('.active').offset().top);
