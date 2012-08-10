@@ -13,10 +13,6 @@ class Auth extends CI_Controller {
 		$this->config->item('use_mongodb', 'ion_auth') ?
 			$this->load->library('mongo_db') :
 			$this->load->database();
-
-		/*** contruct html page ***/
-		$title = ucwords(str_replace('_', ' ',$this->router->fetch_class()));
-		$this->head['title'] = "BloomBoxPhoto | " . $title;
 	}
 
 	//redirect if needed, otherwise display the user list
@@ -45,9 +41,7 @@ class Auth extends CI_Controller {
 				$this->data['users'][$k]->groups = $this->ion_auth->get_users_groups($user->id)->result();
 			}
 
-			$this->load->view('templates/base_header', $this->head);
 			$this->load->view('auth/index', $this->data);
-			$this->load->view('templates/base_footer');
 		}
 	}
 
@@ -97,9 +91,7 @@ class Auth extends CI_Controller {
 				'type' => 'password',
 			);
 
-			$this->load->view('templates/base_header', $this->head);
 			$this->load->view('auth/login', $this->data);
-			$this->load->view('templates/base_footer');
 		}
 	}
 

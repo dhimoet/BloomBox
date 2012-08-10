@@ -1,4 +1,7 @@
 <div id="real_body">
-	<?=generateHeader();?>
+	
+	<?$this->load->view('templates/header');?>
+	
+	<?$this->load->view('templates/side_nav');?>
 	
 </div>

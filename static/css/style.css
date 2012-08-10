@@ -21,3 +21,70 @@ body {
 #header_logo {
 	padding: 40px 50px;
 }
+
+#search_bar {
+	float: right;
+	margin: -70px 50px 0px 0px;
+}
+
+#search_bar div.search_box {
+	float: left;
+	margin: 10px 5px;
+}
+
+#search_bar div.search_button {
+	float: left;
+}
+
+#search_bar input.search_box {
+	background-color: #000000;
+	color: #00b8e8;
+	font-family: Verdana;
+	font-size: 12px;
+	border: 2px solid #00b8e8;
+	border-radius: 5px;
+	width: 130px;
+	height: 20px;
+	padding: 1px 6px;
+}
+
+.side_nav {
+	margin: 60px;
+}
+
+.side_nav .active {
+	color: #ffffff;
+	position: relative;
+	z-index: 2;
+}
+
+.side_nav .active_menu {
+	position: absolute;
+	z-index: 1;
+	display: none;
+}
+
+.nav_menu {
+	background: url('/public/img/site/side_nav_menu_button.png') no-repeat;
+	font-family: Verdana;
+	color: #00b8e8;
+	width: 137px;
+	height: 36px;
+	text-align: center;
+	padding: 8px 0px;
+	margin: 64px 0px;
+	cursor: pointer;
+}
+
+.nav_menu .first_word {
+	font-weight: bold;
+}
+
+.social_networks {
+	margin: 64px 60px;
+}
+
+.social_logos img {
+	margin: 22px 19px 55px 0px;
+	cursor: pointer;
+}
