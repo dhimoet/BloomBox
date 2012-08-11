@@ -26,4 +26,12 @@ $(document).ready(function() {
 		$('.active_menu').show().css('top', $(this).parent().offset().top);
 		$(this).parent().addClass('active');
 	});
+	
+	/*** mini / bottom navigation handler ***/
+	$('.layer_5 > div').click(function() {
+		var rel = $(this).attr('rel');
+		$('.mini_nav').addClass('inactive');
+		$('.mini_nav:contains("' + rel + '")').removeClass('inactive');
+		
+	});
 });
