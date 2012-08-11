@@ -1,3 +1,21 @@
+<script>
+	$(document).ready(function() {
+		var i = 1;
+		$('body').click(function() {
+			if(i < 6) {
+				
+			}
+			else {
+				i = 1;
+			}
+			$('#header1').css('background', "url('/public/img/site/"+ i +".png') repeat-x left bottom #ffffff");
+				$('#real_body1').css('background-color', '#ababab');
+				i++;
+		});
+	});
+</script>
+
+
 <div id="real_body1">
 	
 	<div id="header1">
@@ -64,6 +82,18 @@
 		
 		<div class="layer_2">
 			<img src="/public/img/covers/frame.png" />
+		</div>
+		
+		<div class="layer_3">
+			<img src="/public/img/site/mini_nav.png" />
+		</div>
+		
+		<div class="layer_4">
+			<div class="mini_nav"><span>WELCOME</span></div><div class="mini_nav inactive"><span>OUR BLOG</span></div><div class="mini_nav inactive"><span>ABOUT US</span></div><div class="mini_nav inactive"><span>THE TEAM</span></div><div class="mini_nav inactive"><span>CONTACT US</span></div>
+		</div>
+		
+		<div class="layer_5">
+			<div class="button" rel="WELCOME">&nbsp;</div><div class="button" rel="OUR BLOG">&nbsp;</div><div class="button" rel="ABOUT US">&nbsp;</div><div class="button" rel="THE TEAM">&nbsp;</div><div class="button" rel="CONTACT US">&nbsp;</div>
 		</div>
 		
 	</div>
