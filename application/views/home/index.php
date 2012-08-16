@@ -28,4 +28,92 @@
 		
 	</div>
 	
+	<div id="bottom_nav">
+		
+		<div class="thumbnail_container">
+			<div class="frame">
+				<img src="/public/img/thumbs/thumbnail_frame.png" />
+			</div>
+			<div class="picture">
+				<img src="/public/img/thumbs/thumb-1.png" />
+			</div>
+			<div class="caption">
+				CAPTION
+			</div>
+		</div>
+		
+		<div class="thumbnail_container">
+			<div class="frame">
+				<img src="/public/img/thumbs/thumbnail_frame.png" />
+			</div>
+			<div class="picture">
+				<img src="/public/img/thumbs/thumb-1.png" />
+			</div>
+			<div class="caption">
+				CAPTION
+			</div>
+		</div>
+		
+		<div class="thumbnail_container">
+			<div class="frame">
+				<img src="/public/img/thumbs/thumbnail_frame.png" />
+			</div>
+			<div class="picture">
+				<img src="/public/img/thumbs/thumb-1.png" />
+			</div>
+			<div class="caption">
+				CAPTION
+			</div>
+		</div>
+		
+		<div class="thumbnail_container">
+			<div class="frame">
+				<img src="/public/img/thumbs/thumbnail_frame.png" />
+			</div>
+			<div class="picture">
+				<img src="/public/img/thumbs/thumb-1.png" />
+			</div>
+			<div class="caption">
+				CAPTION
+			</div>
+		</div>
+		
+		<div class="thumbnail_container">
+			<div class="frame">
+				<img src="/public/img/thumbs/thumbnail_frame.png" />
+			</div>
+			<div class="picture">
+				<img src="/public/img/thumbs/thumb-1.png" />
+			</div>
+			<div class="caption">
+				CAPTION
+			</div>
+		</div>
+		
+		<div class="thumbnail_container">
+			<div class="frame">
+				<img src="/public/img/thumbs/thumbnail_frame.png" />
+			</div>
+			<div class="picture">
+				<img src="/public/img/thumbs/thumb-1.png" />
+			</div>
+			<div class="caption">
+				CAPTION
+			</div>
+		</div>
+		
+		<div class="thumbnail_container">
+			<div class="frame">
+				<img src="/public/img/thumbs/thumbnail_frame.png" />
+			</div>
+			<div class="picture">
+				<img src="/public/img/thumbs/thumb-1.png" />
+			</div>
+			<div class="caption">
+				CAPTION
+			</div>
+		</div>
+		
+	</div>
+	
 </div>

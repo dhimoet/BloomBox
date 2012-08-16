@@ -3,7 +3,7 @@
 <html>
 <head>
 	<META content='INDEX,FOLLOW' name='ROBOTS'></META>
-	<meta content="bloombox, photography, bloomboxphoto, indonesia, canada, toronto" name='Keywords'/>
+	<meta content="bloombox, photography, bloomboxphoto, indonesia, canada, toronto, dhimoet.com" name='Keywords'/>
 	<meta content="BloomBoxPhoto.com" name='Description'/>
 	<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
     

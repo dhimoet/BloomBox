@@ -188,3 +188,28 @@ a {
 	height: 24px;
 	cursor: pointer;
 }
+
+#bottom_nav {
+	position: absolute;
+	top: 730px;
+	right: 0px;
+	z-index: 1;
+}
+
+#bottom_nav .thumbnail_container {
+	float: left;
+	margin-right: 14px;
+	position: relative;
+}
+
+#bottom_nav .picture {
+	margin: -58px 0px 0px 0px;
+}
+
+#bottom_nav .caption {
+	font-family: Verdana;
+	font-size: 12px;
+	color: #ffffff;
+	text-align: center;
+	margin: 12px 0px 0px 0px;
+}
