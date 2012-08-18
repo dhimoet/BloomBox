@@ -156,7 +156,7 @@ a {
 }
 
 #welcome {
-	background-image: url('/public/img/covers/blue_frame.png'), url('/public/img/covers/cover_image.png');
+	background-image: url('/public/img/covers/blue_frame.png'), url('/public/img/covers/cover_image_welcome.png');
 	background-repeat: no-repeat;
 	background-position: center top, bottom;
 	display: none;

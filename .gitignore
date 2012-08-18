@@ -2,7 +2,6 @@
 */config/constants.php
 */config/database.php
 */config/development
-*/sql/*
 */logs/log-*.php
 */logs/!index.html
 */cache/*
