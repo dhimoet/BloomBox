@@ -18,21 +18,31 @@ class Home extends CI_Controller {
 		$this->head['title'] = "BloomBoxPhoto | " . $title;
 	}
 	
-	public function index() {
+	public function index() 
+	{
 		$this->load->view('templates/base_header', $this->head);
 		$this->load->view('home/index');
 		$this->load->view('templates/base_footer');
 	}
 	
-	public function version1() {
+	public function version1() 
+	{
 		$this->load->view('templates/base_header', $this->head);
 		$this->load->view('home/version1');
 		$this->load->view('templates/base_footer');
 	}
 	
-	public function version2() {
+	public function version2() 
+	{
 		$this->load->view('templates/base_header', $this->head);
 		$this->load->view('home/version2');
+		$this->load->view('templates/base_footer');
+	}
+
+	public function version3()
+	{
+		$this->load->view('templates/base_header', $this->head);
+		$this->load->view('home/version3');
 		$this->load->view('templates/base_footer');
 	}
 }
