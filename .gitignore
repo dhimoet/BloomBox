@@ -6,7 +6,7 @@
 */logs/!index.html
 */cache/*
 */cache/!index.html
-*/system/libraries/Email.php
+system/libraries/Email.php
 *.DS_Store
 blog/wp-admin/*
 .project

@@ -22,7 +22,7 @@
 				</div>
 				
 				<div class="frame_content" id="contact">
-					<form name="contact_us" id="contact_us" method="post" action="/" class="container_50">
+					<form name="contact_us" id="contact_us" method="post" action="/email/contact_us" class="container_50">
 						<div class="float_50">
 							<div class="input_field">
 								<label>Name:</label>
