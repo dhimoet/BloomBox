@@ -27,23 +27,23 @@
 				
 				<div class="frame_nav">
 					<div class="frame_nav_menu inactive">
-						<a href="#welcome">WELCOME</a>
+						<a href="#/welcome">WELCOME</a>
 					</div>
 					
 					<div class="frame_nav_menu inactive">
-						<a href="/blog/">OUR BLOG</a>
+						<a href="http://blog.bloomboxphoto.com/">OUR BLOG</a>
 					</div>
 					
 					<div class="frame_nav_menu inactive">
-						<a href="#about">ABOUT US</a>
+						<a href="#/about">ABOUT US</a>
 					</div>
 					
 					<div class="frame_nav_menu inactive">
-						<a href="#team">THE TEAM</a>
+						<a href="#/team">THE TEAM</a>
 					</div>
 					
 					<div class="frame_nav_menu inactive">
-						<a href="#contact">CONTACT US</a>
+						<a href="#/contact">CONTACT US</a>
 					</div>
 				</div>
 			</div>

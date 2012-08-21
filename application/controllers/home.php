@@ -22,6 +22,7 @@ class Home extends CI_Controller {
 	{
 		$this->load->view('templates/base_header', $this->head);
 		$this->load->view('home/index');
+		$this->load->view('backbone/backbone_js');
 		$this->load->view('templates/base_footer');
 	}
 	
@@ -43,6 +44,39 @@ class Home extends CI_Controller {
 	{
 		$this->load->view('templates/base_header', $this->head);
 		$this->load->view('home/version3');
+		$this->load->view('templates/base_footer');
+	}
+	
+	public function blog()
+	{
+		redirect('http://blog.bloomboxphoto.com/', 'refresh');
+	}
+	
+	public function welcome() 
+	{
+		$this->load->view('templates/base_header', $this->head);
+		$this->load->view('home/index');
+		$this->load->view('templates/base_footer');
+	}
+	
+	public function about() 
+	{
+		$this->load->view('templates/base_header', $this->head);
+		$this->load->view('home/about');
+		$this->load->view('templates/base_footer');
+	}
+	
+	public function team() 
+	{
+		$this->load->view('templates/base_header', $this->head);
+		$this->load->view('home/team');
+		$this->load->view('templates/base_footer');
+	}
+	
+	public function contact() 
+	{
+		$this->load->view('templates/base_header', $this->head);
+		$this->load->view('home/contact');
 		$this->load->view('templates/base_footer');
 	}
 }

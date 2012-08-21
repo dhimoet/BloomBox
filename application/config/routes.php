@@ -42,5 +42,16 @@ $route['default_controller'] = "home";
 $route['404_override'] = '';
 
 
+/*
+| -------------------------------------------------------------------------
+| CUSTOM ROUTES
+| -------------------------------------------------------------------------
+*/
+
+$route['blog'] = "home/blog";
+$route['about'] = "home/about";
+$route['team'] = "home/team";
+$route['contact'] = "home/contact";
+
 /* End of file routes.php */
 /* Location: ./application/config/routes.php */
