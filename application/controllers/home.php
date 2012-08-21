@@ -51,32 +51,4 @@ class Home extends CI_Controller {
 	{
 		redirect('http://blog.bloomboxphoto.com/', 'refresh');
 	}
-	
-	public function welcome() 
-	{
-		$this->load->view('templates/base_header', $this->head);
-		$this->load->view('home/index');
-		$this->load->view('templates/base_footer');
-	}
-	
-	public function about() 
-	{
-		$this->load->view('templates/base_header', $this->head);
-		$this->load->view('home/about');
-		$this->load->view('templates/base_footer');
-	}
-	
-	public function team() 
-	{
-		$this->load->view('templates/base_header', $this->head);
-		$this->load->view('home/team');
-		$this->load->view('templates/base_footer');
-	}
-	
-	public function contact() 
-	{
-		$this->load->view('templates/base_header', $this->head);
-		$this->load->view('home/contact');
-		$this->load->view('templates/base_footer');
-	}
 }

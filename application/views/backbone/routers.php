@@ -4,9 +4,7 @@
             "*method": "loadPage",
         },
         loadPage: function(method) {
-        	if(method == '') {
-        		method = 'welcome';
-        	}
+        	if(method == '') method = 'welcome';
         	// side nav
         	$('.frame_content').fadeOut();
         	$('.nav_menu').removeClass('active');
@@ -19,8 +17,4 @@
 			$('a[href="#/'+ method +'"]').parent().removeClass('inactive');
         },
     });
-    // Instantiate the router
-    var app_router = new AppRouter;
-    // Start Backbone history a neccesary step for bookmarkable URL's
-    Backbone.history.start();
 </script>
