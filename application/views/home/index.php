@@ -30,7 +30,7 @@
 							</div>
 							<div class="input_field">
 								<label>Email:</label>
-								<input type="text" name="contact[email]" class="validate[required]" />
+								<input type="text" name="contact[email]" class="validate[required,custom[email]]" />
 							</div>
 							<div class="input_field">
 								<label>Telephone:</label>

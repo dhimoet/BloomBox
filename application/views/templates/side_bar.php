@@ -31,9 +31,9 @@
 				</div>
 				
 				<div class="social_logos">
-					<img src="/public/img/site/facebook.png" />
-					<img src="/public/img/site/flickr.png" />
-					<img src="/public/img/site/twitter.png" />
+					<a href="http://www.facebook.com/bloomboxphoto" target="_blank"><img src="/public/img/site/facebook.png" /></a>
+					<a href="" target="_blank"><img src="/public/img/site/flickr.png" /></a>
+					<a href="http://twitter.com/bloomboxphoto" target="_blank"><img src="/public/img/site/twitter.png" /></a>
 				</div>
 			</div>
 		</div>
