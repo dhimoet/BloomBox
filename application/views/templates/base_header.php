@@ -10,7 +10,11 @@
 	<title><?=$title?></title>
 	
 	<link rel="stylesheet" type="text/css" href="/static/css/style.css" />
+	<link rel="stylesheet" type="text/css" href="/static/css/validationEngine.jquery.css" />
+	
 	<script type="text/javascript" src="/static/js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="/static/js/jquery.validationEngine.js"></script>
+	<script type="text/javascript" src="/static/js/jquery.validationEngine-en.js"></script>
 	<script type="text/javascript" src="/static/js/underscore-min.js"></script>
 	<script type="text/javascript" src="/static/js/backbone-min.js"></script>
 	<script type="text/javascript" src="/static/js/script.js"></script>
