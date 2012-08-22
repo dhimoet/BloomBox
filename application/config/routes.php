@@ -48,6 +48,7 @@ $route['404_override'] = '';
 | -------------------------------------------------------------------------
 */
 
+$route['welcome'] = "home/welcome";
 $route['blog'] = "home/blog";
 $route['about'] = "home/about";
 $route['team'] = "home/team";

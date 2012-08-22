@@ -26,29 +26,28 @@ class Home extends CI_Controller {
 		$this->load->view('templates/base_footer');
 	}
 	
-	public function version1() 
+	public function welcome()
 	{
-		$this->load->view('templates/base_header', $this->head);
-		$this->load->view('home/version1');
-		$this->load->view('templates/base_footer');
-	}
-	
-	public function version2() 
-	{
-		$this->load->view('templates/base_header', $this->head);
-		$this->load->view('home/version2');
-		$this->load->view('templates/base_footer');
-	}
-
-	public function version3()
-	{
-		$this->load->view('templates/base_header', $this->head);
-		$this->load->view('home/version3');
-		$this->load->view('templates/base_footer');
+		redirect('/home/#/welcome', 'refresh');
 	}
 	
 	public function blog()
 	{
 		redirect('http://blog.bloomboxphoto.com/', 'refresh');
+	}
+	
+	public function about()
+	{
+		redirect('/home/#/about', 'refresh');
+	}
+	
+	public function team()
+	{
+		redirect('/home/#/team', 'refresh');
+	}
+	
+	public function contact()
+	{
+		redirect('/home/#/contact', 'refresh');
 	}
 }
