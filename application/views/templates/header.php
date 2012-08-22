@@ -5,9 +5,9 @@
 			</div>
 			
 			<div class="header_search">
-				<form method="get" action="">
+				<form method="get" action="http://blog.bloomboxphoto.com/">
 					<div class="search_box">
-						<input type="text" name="search" value="Search" />
+						<input type="text" name="s" value="Search" />
 					</div>
 					<div class="search_button">
 						<input type="image" src="/public/img/site/search_button.png" />

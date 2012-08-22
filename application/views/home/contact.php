@@ -17,7 +17,7 @@
 						<div class="float_50">
 							<div class="input_field">
 								<label>Website:</label>
-								<input type="text" name="contact[website]" />
+								<input type="text" name="contact[website]" class="validate[custom[url]]" />
 							</div>
 							<div class="input_field">
 								<label>Message:</label>
