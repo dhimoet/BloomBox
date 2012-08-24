@@ -16,6 +16,7 @@ class Home extends CI_Controller {
 		/*** contruct html page ***/
 		$title = ucwords(str_replace('_', ' ',$this->router->fetch_class()));
 		$this->head['title'] = "BloomBoxPhoto | " . $title;
+		$this->head['id'] = $this->router->fetch_method();
 	}
 	
 	public function index() 
@@ -49,5 +50,13 @@ class Home extends CI_Controller {
 	public function contact()
 	{
 		redirect('/home/#/contact', 'refresh');
+	}
+	
+	public function version1() 
+	{
+		$this->load->view('templates/base_header', $this->head);
+		$this->load->view('home/version1');
+		$this->load->view('backbone/backbone_js');
+		$this->load->view('templates/base_footer');
 	}
 }

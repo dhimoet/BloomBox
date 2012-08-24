@@ -239,3 +239,41 @@ a {
 	background-position: 22px 24px;
 	display: none;
 }
+
+/*** Home version 1 ***/
+body#version1 {
+	background: #e6e6e6;
+}
+
+body#version1 .body {
+	background: -webkit-gradient(linear, left top, left bottom, from(#4a4a4a), to(#e6e6e6));
+	background: -moz-linear-gradient(top,  #4a4a4a,  #e6e6e6);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#4a4a4a', endColorstr='#e6e6e6');
+	overflow: hidden;
+}
+
+.cover_sliding {
+	width: 2949px;
+	margin-left: -500px;
+}
+
+.cover_image {
+	display: inline-block;
+	padding: 80px;
+}
+
+.cover_image img {
+	border: none;
+	border-radius: 25px;
+	box-shadow: 5px 10px 20px #4a4a4a;
+	max-width: 320px;
+	max-height: 224px;
+}
+
+.cover_image.active img {
+	border: none;
+	border-radius: 25px;
+	box-shadow: 5px 10px 20px #4a4a4a;
+	max-width: 1024px;
+	max-height: 768px;
+}
