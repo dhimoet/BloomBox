@@ -23,4 +23,54 @@ $(document).ready(function() {
 			}
 		});
 	});
+	
+	/*** load up slide show ***/
+	$('.current_slide').fadeIn(1000, function() {
+		$('.next_slide').fadeIn(1000, function() {
+			$('.previous_slide').fadeIn(1000);
+		});
+	});
+	
+	/*** run slide show ***/
+	var previous = 4;
+	var current = 1;
+	var next = 2;
+	
+	run_slideshow(previous, current, next);
+
+	function run_slideshow(previous, current, next) {
+		if(previous < 4) {
+			previous++;
+		}
+		else {
+			previous = 1;
+		}
+		if(current < 4) {
+			current++;
+		}
+		else {
+			current = 1;
+		}
+		if(next < 4) {
+			next++;
+		}
+		else {
+			next = 1;
+		}
+		setTimeout(function() {
+			$('.previous_slide').fadeOut(1000, function() {
+				$('.previous_slide > img').attr('src', '/public/img/covers/cover_page_'+ previous +'.png');
+				$('.previous_slide').fadeIn(1000);
+				$('.current_slide').fadeOut(1000, function() {
+					$('.current_slide > img').attr('src', '/public/img/covers/cover_page_'+ current +'.png');
+					$('.current_slide').fadeIn(1000);
+					$('.next_slide').fadeOut(1000, function() {
+						$('.next_slide > img').attr('src', '/public/img/covers/cover_page_'+ next +'.png');
+						$('.next_slide').fadeIn(1000);
+						run_slideshow(previous, current, next);
+					});
+				});
+			});
+		}, 6000);
+	}
 });
