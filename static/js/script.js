@@ -31,46 +31,66 @@ $(document).ready(function() {
 		});
 	});
 	
-	/*** run slide show ***/
+	/*** run slide show version 1***/
 	var previous = 4;
 	var current = 1;
 	var next = 2;
 	
-	run_slideshow(previous, current, next);
+	run_slideshow_1(previous, current, next);
 
-	function run_slideshow(previous, current, next) {
-		if(previous < 4) {
-			previous++;
-		}
-		else {
-			previous = 1;
-		}
-		if(current < 4) {
-			current++;
-		}
-		else {
-			current = 1;
-		}
-		if(next < 4) {
-			next++;
-		}
-		else {
-			next = 1;
-		}
-		setTimeout(function() {
-			$('.previous_slide').fadeOut(1000, function() {
-				$('.previous_slide > img').attr('src', '/public/img/covers/cover_page_'+ previous +'.png');
-				$('.previous_slide').fadeIn(1000);
-				$('.current_slide').fadeOut(1000, function() {
-					$('.current_slide > img').attr('src', '/public/img/covers/cover_page_'+ current +'.png');
-					$('.current_slide').fadeIn(1000);
-					$('.next_slide').fadeOut(1000, function() {
-						$('.next_slide > img').attr('src', '/public/img/covers/cover_page_'+ next +'.png');
-						$('.next_slide').fadeIn(1000);
-						run_slideshow(previous, current, next);
-					});
+	/*** run slide show version 2***/
+	run_slideshow_2(current);
+});
+
+function run_slideshow_1(previous, current, next) {
+	if(previous < 4) {
+		previous++;
+	}
+	else {
+		previous = 1;
+	}
+	if(current < 4) {
+		current++;
+	}
+	else {
+		current = 1;
+	}
+	if(next < 4) {
+		next++;
+	}
+	else {
+		next = 1;
+	}
+	setTimeout(function() {
+		$('.previous_slide').fadeOut(1000, function() {
+			$('.previous_slide > img').attr('src', '/public/img/covers/cover_page_'+ previous +'.png');
+			$('.previous_slide').fadeIn(1000);
+			$('.current_slide').fadeOut(1000, function() {
+				$('.current_slide > img').attr('src', '/public/img/covers/cover_page_'+ current +'.png');
+				$('.current_slide').fadeIn(1000);
+				$('.next_slide').fadeOut(1000, function() {
+					$('.next_slide > img').attr('src', '/public/img/covers/cover_page_'+ next +'.png');
+					$('.next_slide').fadeIn(1000);
+					run_slideshow_1(previous, current, next);
 				});
 			});
-		}, 6000);
-	}
-});
+		});
+	}, 6000);
+}
+
+function run_slideshow_2(current) {
+	$('.image_cover > img').attr('src', '/public/img/covers/cover_page_'+ current +'.png');
+	$('.image_cover').fadeIn(1000, function() {
+		setTimeout(function() {
+			$('.image_cover').fadeOut(1000, function() {
+				if(current < 4) {
+					current++
+				}
+				else {
+					current = 1;
+				}
+				run_slideshow_2(current);
+			});
+		}, 5000);
+	});
+}

@@ -59,4 +59,12 @@ class Home extends CI_Controller {
 		$this->load->view('backbone/backbone_js');
 		$this->load->view('templates/base_footer');
 	}
+	
+	public function version2() 
+	{
+		$this->load->view('templates/base_header', $this->head);
+		$this->load->view('home/version2');
+		$this->load->view('backbone/backbone_js');
+		$this->load->view('templates/base_footer');
+	}
 }
