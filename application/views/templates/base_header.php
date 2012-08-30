@@ -6,7 +6,7 @@
 	<meta content="bloombox, photography, bloomboxphoto, indonesia, canada, toronto, dhimoet.com" name='Keywords'/>
 	<meta content="BloomBoxPhoto.com" name='Description'/>
 	<meta content='text/html; charset=UTF-8' http-equiv='Content-Type'/>
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="viewport" content="width=device-width, user-scalable=no" />
 	<meta name="apple-mobile-web-app-capable" content="yes" />
     
 	<title><?=$title?></title>
